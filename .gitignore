@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Ambientes Virtuais ---
+# Ignora pastas onde as bibliotecas são instaladas
+venv/
+.venv/
+env/
+
+# --- Variáveis de Ambiente e Segredos (CRÍTICO) ---
+# NUNCA envie seu arquivo .env para o GitHub
+.env
+.env.local
+
+# --- Flask ---
+instance/
+.webassets-cache
+
+# --- Banco de Dados (se usar SQLite no futuro) ---
+*.sqlite3
+*.db
+
+# --- IDEs e Editores ---
+# Configurações do VS Code, PyCharm, etc.
+.vscode/
+.idea/
+
+# --- Sistema Operacional ---
+# Arquivos de indexação do Mac e Windows
+.DS_Store
+Thumbs.db
