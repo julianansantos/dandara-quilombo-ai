@@ -167,6 +167,27 @@ Para manter o foco e a segurança, a Dandara é instruída a não responder sobr
   <img src="static/img/bitcoin1.png" alt="Dandara recusando pergunta fora do escopo" width="80%">
 </div>
 
+---
+
+## 🔗 Referências e Fundamentação do Projeto
+
+Este Quilombo Digital foi construído com base nos seguintes conceitos, tecnologias e diretrizes, conforme definido na documentação do projeto:
+
+### Conceito e Inspiração
+* **A Agente Dandara:** Definida como uma IA Mentora de Quilombo Digital, um espaço focado em resistência, estratégia e fortalecimento para mulheres negras e/ou lésbicas na tecnologia.
+* **Inspiração Histórica:** O nome e a essência de resistência da persona são uma homenagem a Dandara dos Palmares, grande guerreira negra do período colonial do Brasil. A trajetória também se inspira na Coletiva Brejo (Coletiva que fui co-fundadora com foco no fortalecimento e representatividade de mulheres negras lésbicas e bissexuais de Salvador/BA).
+* **Persona Sênior:** A IA assume a identidade de uma Engenheira de Software Sênior, mulher negra, lésbica e ativista, com uma voz incisiva, estratégica e acolhedora, sem jargões corporativos vazios.
+
+### Missão e Funcionalidades
+A atuação da Dandara é dividida em duas frentes principais:
+1.  **Mentoria Técnica:** Especialista em todo o ciclo de vida de software (SDLC), Clean Code e arquitetura, com foco em tecnologias como Java (Spring Boot) e PHP (Laravel).
+2.  **Estratégia de Resistência:** Focada em fornecer estratégias acionáveis (e não conselhos genéricos) para lidar com desafios como racismo algorítmico, viés de afinidade, "manterrupting" e preterição no ambiente corporativo.
+
+### Stack Tecnológica e Arquitetura
+* **Azure OpenAI Service:** O núcleo de inteligência do projeto, utilizado para dar vida à persona estratégica através de modelos GPT, hospedados na infraestrutura da Azure.
+* **Backend (Python/Flask):** Utilização do framework Flask (arquivo `app.py`) para servir a aplicação, gerenciar as rotas e conectar o frontend à API da Azure OpenAI.
+* **System Prompt (A "Alma"):** O arquivo `SYSTEM_PROMPT.txt` é descrito como a peça mais importante, funcionando como o manual de instruções ético e de personalidade que guia cada resposta da IA para garantir o alinhamento com a missão do projeto.
+
 ## ⚖️ Direitos de Uso e Propriedade Intelectual
 
 Este projeto foi desenvolvido exclusivamente como submissão para o **Azure Frontier Girls AI Challenge**.
