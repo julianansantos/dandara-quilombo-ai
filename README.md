@@ -10,7 +10,7 @@
 
 Este projeto apresenta **Dandara**, uma agente de IA disruptiva e um espaço de *aquilombamento digital*, criada para o empoderamento interseccional de mulheres negras e/ou lésbicas na área de tecnologia.
 
-Diferente de bots genéricos de "empoderamento", a Dandara foi arquitetada para entender que os desafios de uma mulher negra ou lésbica na tecnologia não são resolvidos apenas com "confiança". Ela oferece **estratégia**, dados e acolhimento.
+Diferente de bots genéricos de "empoderamento", a Dandara foi arquitetada para entender que os desafios de uma mulher negra lésbica ou bi na tecnologia não são resolvidos apenas com "confiança". Ela oferece **estratégia**, dados e acolhimento.
 
 ### 🎯 A Persona (System Prompt)
 A "alma" da Dandara reside em seu *System Prompt* refinado no Azure OpenAI. Ela é uma Engenheira de Software Sênior, ativista, cria da comunidade, direta e acolhedora.
@@ -98,8 +98,74 @@ Este projeto foi desenhado com escalabilidade em mente. Os próximos passos de d
     flask run
     ```
     O servidor iniciará em `http://127.0.0.1:5000`.
+---
+
+## 📸 Galeria: Construindo o Quilombo Digital
+
+Acompanhe a jornada de criação da Dandara, desde a infraestrutura na nuvem até a interação final com a persona.
+
+### 1. A Fundação na Azure (Infraestrutura)
+O primeiro passo foi preparar o terreno na nuvem da Microsoft. Criamos um Grupo de Recursos organizado na região `Sweden Central` e, em seguida, um Projeto no **Azure AI Foundry** para gerenciar nossos serviços de IA.
+
+<div align="center">
+  <img src="static/img/resource.png" alt="Criação do Grupo de Recursos na Azure" width="45%" style="margin-right: 10px;">
+  <img src="static/img/project.png" alt="Criação do Projeto no Azure AI Foundry" width="45%">
+</div>
+
+<br>
+
+### 2. O "Cérebro" da IA (Deploy e Conexão)
+Com a fundação pronta, implantamos o modelo **`gpt-4o-mini`**, escolhido pelo seu equilíbrio entre inteligência e eficiência de custo. Em seguida, obtivemos as chaves de acesso (Endpoint e Key) para conectar nosso código Python ao "cérebro" na nuvem.
+
+<div align="center">
+  <img src="static/img/deploy.png" alt="Deploy do modelo GPT-4o-mini" width="45%" style="margin-right: 10px;">
+  <img src="static/img/key.png" alt="Chaves de acesso e Endpoint da API" width="45%">
+</div>
+
+<br>
 
 ---
+
+### 3. A Aplicação em Execução
+Com o backend conectado à Azure, a aplicação Flask sobe e apresenta a interface do nosso Quilombo Digital. A Dandara recebe a usuária com sua saudação personalizada, estabelecendo o tom de acolhimento e senioridade.
+
+<div align="center">
+  <img src="static/img/dandara.png" alt="Interface inicial do chat Dandara" width="80%">
+</div>
+
+<br>
+
+---
+
+### 4. A Persona em Ação (Exemplos de Interação)
+Demonstração prática das frentes de atuação da Dandara, evidenciando como o *System Prompt* guia suas respostas.
+
+#### 🛠️ Mentoria Técnica Sênior
+*Exemplo: Explicação sobre CLEAN CODE.*
+Observe como a resposta é estruturada com clareza técnica, usando tópicos e definições precisas, agindo como uma Engenheira de Software Sênior.
+
+<div align="center">
+  <img src="static/img/clean1.png" alt="Dandara explicando API REST" width="80%">
+  <img src="static/img/clean2.png" alt="Dandara explicando API REST" width="80%">
+  <img src="static/img/clean3.png" alt="Dandara explicando API REST" width="80%">
+</div>
+
+#### ✊🏿 Estratégia de Resistência (Quilombo)
+*Exemplo: Lidando com interrupções em reuniões ("Manterrupting").*
+A Dandara valida a frustração da usuária (acolhimento) e imediatamente oferece estratégias práticas e acionáveis (como documentar contribuições e buscar aliados) para navegar essa situação tóxica.
+
+<div align="center">
+  <img src="static/img/mani1.png" alt="Dandara dando estratégias sobre interrupções" width="80%">
+  <img src="static/img/mani2.png" alt="Dandara dando estratégias sobre interrupções" width="80%">
+</div>
+
+#### 🛡️ Limites Éticos (Guardrails)
+*Exemplo: Pergunta fora do escopo (Bitcoin/Investimentos).*
+Para manter o foco e a segurança, a Dandara é instruída a não responder sobre temas alheios à sua missão. Ela recusa educadamente e redireciona o foco para tecnologia e carreira.
+
+<div align="center">
+  <img src="static/img/bitcoin1.png" alt="Dandara recusando pergunta fora do escopo" width="80%">
+</div>
 
 ## ⚖️ Direitos de Uso e Propriedade Intelectual
 
